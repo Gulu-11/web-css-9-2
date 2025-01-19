@@ -1,0 +1,1007 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #53389E;
+}
+.headerDiv {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.headerNavDiv {
+    max-width: 1280px;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px 0 32px;
+}
+.siteLogoDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.backLogo {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 8px;
+    background-image: url("../images/site\ logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logotype {
+    width: 97px;
+    height: 32px;
+}
+a {
+    text-decoration: none;
+}
+.nav-logo-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 645px;
+    width: 100%;
+}
+.navigationDiv {
+    display: flex;
+    max-width: 474px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+.menuDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 94px;
+    align-items: center;
+}
+.menuDiv a {
+    font-weight: 600;
+    color: white;
+}
+.arrow-down {
+    width: 20px;
+    height: 20px;
+}
+.headerBtns {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+.logInBtn {
+    padding: 10px 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+.logInBtn a {
+    font-weight: 600;
+    color: #414651;
+}
+.signUpBtn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7F56D9;
+}
+.signUpBtn a {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.burgerMenuBtn {
+    background-color: unset;
+    border: none;
+    display: none;
+}
+
+.FullMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 994px;
+    background-color: #53389E;
+    padding-top: 96px;
+}
+.bankingDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px 0 32px;
+    max-width: 1280px;
+    width: 100%;
+    height: 378px;
+}
+.technoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    align-items: center;
+}
+.bankingtextDiv :first-child {
+    color: #E9D7FE;
+    font-weight: 600;
+}
+.bankingtextDiv {
+    max-width: 768px;
+    width: 100%;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bankingtextDiv :nth-child(2) {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 90px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.simpletext {
+    font-size: 20px;
+    color: #E9D7FE;
+}
+.demo-sign-btns {
+    display: flex;
+    gap: 12px;
+}
+.demoBtn {
+    padding: 16px 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.play-demo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.play-circle {
+    width: 24px;
+    height: 24px;
+}
+.play-demo a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #414651;
+}
+.signUp-2-btn {
+    padding: 16px 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7F56D9;
+}
+.signUp-2-btn a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.cardsImg {
+    max-width: 1280px;
+    width: 100%;
+    height: 456px;
+}
+.section-2 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+}
+.sitesLogos-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    height: 104px;
+    padding: 0 32px;
+}
+.sitesLogos-div p {
+    text-align: center;
+    font-weight: 500;
+    color: #535862;
+}
+.sites-logo {
+    max-width: 1216px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-text-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sites-logo-img {
+    width: 40px;
+    height: 48px;
+}
+.sites-logo-text {
+    width: 140px;
+    height: 48px;
+}
+.section-3 {
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #F2EDFF;
+}
+.section-3-div {
+    display: flex;
+    padding: 0 32px;
+    gap: 64px;
+}
+.simpleDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 274px;
+    max-width: 360px;
+    width: 100%;
+}
+.simpleTextDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 164px;
+}
+.zapIcon {
+    width: 28px;
+    height: 28px;
+}
+.simpleTextDiv p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #181D27;
+}
+.spendtext {
+    font-size: 20px;
+    line-height: 30px;
+    color: #535862;
+}
+.section-3-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.simpleContentDiv {
+    display: flex;
+    gap: 64px;
+}
+.simpleContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 364px;
+    width: 100%;
+    gap: 8px;
+}
+.simpleContent :first-child {
+    font-size: 20px;
+    font-weight: 600;
+    color: #181D27;
+    line-height: 30px;
+}
+.simpleContent :last-child {
+    line-height: 24px;
+    color: #535862;
+}
+
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    height: 832px;
+    align-items: center;
+    background-image: url("../images/dashboard\ image.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.featuresDiv {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 32px;
+}
+.featuresContentDiv {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    max-width: 768px;
+    width: 100%;
+    justify-content: space-between;
+}
+.featuresTextDiv {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+.featuresTextDiv :first-child {
+    font-weight: 600;
+    color: #6941C6;
+}
+.featuresTextDiv :last-child {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #181D27;
+}
+.deptext {
+    font-size: 20px;
+    line-height: 30px;
+    color: #535862;
+}
+.learnMoreMainDiv {
+    max-width: 1280px;
+    width: 100%;
+    height: 512px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+}
+.learnMoreDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    width: 100%;
+}
+.learnContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 162px;
+    padding: 16px 0 16px 24px;
+    border-left: 4px solid #9E77ED;
+}
+.learnMore-arrow-div {
+    display: flex;
+    justify-content: space-between;
+    width: 114px;
+    align-items: center;
+}
+.learnMore-arrow-div a {
+    font-weight: 600;
+    color: #6941C6;
+}
+.arrow-right {
+    width: 20px;
+    height: 20px;
+}
+.learnContentDiv-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 162px;
+    padding: 16px 0 16px 24px;
+    border-left: 4px solid #F5F5F5;
+}
+
+
+.section-5 {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+    background-color: #F2EDFF;
+}
+.upgrade-cards-div {
+    display: flex;
+    padding: 0 32px;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+}
+.upgradeMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 440px;
+    width: 100%;
+    height: 156px;
+}
+.upgradeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+}
+.upgradeDiv :first-child {
+    font-weight: 600;
+    color: #6941C6;
+}
+.upgradeDiv :last-child {
+    font-size: 36px;
+    font-weight: 600;
+    color: #181D27;
+}
+.transText {
+    font-size: 18px;
+    line-height: 28px;
+    color: #535862;
+}
+.cardsMainDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 712px;
+    width: 100%;
+}
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+}
+.mainCardHeader {
+    display: flex;
+    padding: 32px 32px 0 32px;
+    justify-content: center;
+}
+.cardHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 194px;
+}
+.basic-buss-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 94px;
+    align-items: center;
+}
+.iconcardDiv {
+    padding: 12px;
+    background-color: #F4EBFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconCard {
+    width: 24px;
+    height: 24px;
+}
+.basic-buss-div p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6941C6;
+}
+.cardPrice {
+    font-size: 48px;
+    font-weight: 600;
+    color: #181D27;
+}
+.priceUnder {
+    color: #535862;
+    text-align: center;
+}
+.mainCardContent {
+    padding: 32px 32px 40px 32px;
+}
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 184px;
+}
+.checkboxDiv {
+    display: flex;
+    gap: 12px;
+}
+.checkIcon {
+    width: 24px;
+    height: 24px;
+}
+.checkboxDiv p {
+    color: #535862;
+    line-height: 24px;
+    width: 240px;
+}
+.mainCardFooter {
+    padding: 32px;
+    border-top: 1px solid #E9EAEB;
+}
+.getstartedBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 276px;
+    height: 48px;
+    padding: 12px 18px;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+}
+.getstartedBtn a {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.section-6 {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+}
+.mainGirlDiv {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 32px;
+}
+.girlDiv {
+    display: flex;
+    border-radius: 24px;
+    background-color: #53389E;
+    max-width: 1216px;
+    width: 100%;
+    background-image: url("../images/girl-Image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.girlContentMainDiv {
+    padding: 64px;
+    max-width: 736px;
+    width: 100%;
+}
+.girlContentDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 306px;
+}
+.starsMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 176px;
+}
+.starsDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+}
+.starIcon {
+    width: 20px;
+    height: 20px;
+}
+.starsMainDiv p {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.reneeMainDiv {
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reneeMainDiv :first-child {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.reneeMainDiv :last-child {
+    color: #E9D7FE;
+}
+.ballsDiv {
+    display: flex;
+    width: 62px;
+    justify-content: space-between;
+}
+.whiteBall {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+.purpleBall {
+    width: 10px;
+    height: 10px;
+    background-color: #9E77ED;
+    border-radius: 100%;
+}
+
+
+
+.mainFooterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 472px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    background-color: #FAFAFA;
+}
+.footerDiv {
+    padding: 0 32px;
+    max-width: 1280px;
+    width: 100%;
+}
+.footerContentDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.siteLogo-textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 112px;
+    max-width: 320px;
+    width: 100%;
+}
+.siteLogo-textDiv p {
+    color: #535862;
+}
+
+.footerNavMainDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 712px;
+    width: 100%;
+}
+.footerNavDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 320px;
+    width: 100%;
+}
+.footerMenuDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+}
+.menuTitle {
+    font-weight: 600;
+    font-size: 14px;
+    color: #181D27;
+}
+.footerMenuLinks {
+    width: 144px;
+}
+.footerLinksDiv {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footerLinksDiv a {
+    font-weight: 600;
+    color: #6941C6;
+}
+.formMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    max-width: 360px;
+    width: 100%;
+}
+.staytext {
+    font-size: 14px;
+    font-weight: 600;
+    color: #181D27;
+}
+.footerForm {
+    display: flex;
+    justify-content: space-between;
+}
+#emailInput {
+    padding: 10px 14px;
+    width: 229px;
+    height: 44px;
+    border: 1px solid #7F56D9;
+    border-radius: 8px;
+    outline: none;
+}
+#emailInput::placeholder {
+    color: #717680;
+}
+#submitInput {
+    width: 115px;
+    height: 44px;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.copyConteiner {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+}
+.copyDiv {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E9EAEB;
+    padding-top: 32px;
+    max-width: 1216px;
+    width: 100%;
+}
+.copyText {
+    color: #717680;
+}
+.copyLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 196px;
+}
+.copyLinks a {
+    color: #717680;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navigationDiv {
+        display: none;
+    }
+    .logInBtn {
+        display: none;
+    }
+    .signUpBtn {
+        display: none;
+    }
+    .burgerMenuBtn {
+        display: block;
+    }
+    .headerBtns {
+        justify-content: flex-end;
+    }
+    .section-1 {
+        background-image: url("../images/card\ img.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .cardsImg {
+        display: none;
+    }
+    .sites-logo {
+        flex-wrap: wrap;
+    }
+    .simpleContentDiv {
+        flex-direction: column;
+    }
+    .section-3 {
+        height: 1138px;
+    }
+    .section-4 {
+        background-image: url("../images/tablet\ back\ img.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+    .upgrade-cards-div {
+        flex-direction: column;
+        height: 838px;
+    }
+    .girlDiv {
+        flex-direction: column;
+        background-image: url("../images/girl\ img\ tablet.png");
+        background-repeat: no-repeat;
+        height: 1244px;
+        background-position: bottom;
+    }
+    .footerContentDiv {
+        flex-direction: column;
+        height: 512px;
+    }
+    .footerNavMainDiv {
+        flex-direction: column;
+        height: 352px;
+    }
+    .formMainDiv {
+        order: -1;
+    }
+    .mainFooterDiv {
+        height: 744px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navigationDiv {
+        display: none;
+    }
+    .logInBtn {
+        display: none;
+    }
+    .signUpBtn {
+        display: none;
+    }
+    .burgerMenuBtn {
+        display: block;
+    }
+    .headerBtns {
+        justify-content: flex-end;
+    }
+    .bankingtextDiv {
+        align-items: flex-start;
+    }
+    .bankingtextDiv :nth-child(2) {
+        text-align: start;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .simpletext {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .demo-sign-btns {
+        flex-direction: column;
+    }
+    .technoDiv {
+        height: 236px;
+    }
+    .signUp-2-btn {
+        order: -1;
+    }
+    .cardsImg {
+        display: none;
+    }
+    .section-1 {
+        background-image: url("../images/card\ img\ phone.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 688px;
+    }
+    .sites-logo {
+        flex-wrap: wrap;
+    }
+    .section-2 {
+        height: 504px;
+    }
+    .sitesLogos-div {
+        gap: 16px;
+    }
+    .section-3-div {
+        flex-direction: column;
+
+    }
+    .simpleContentDiv {
+        flex-direction: column;
+    }
+    .simpleTextDiv p {
+        font-size: 30px;
+    }
+    .spendtext {
+        font-size: 18px;
+    }
+    .zapIcon {
+        width: 24px;
+        height: 24px;
+    }
+    .simpleTextDiv {
+        gap: 20px;
+    }
+    .simpleDiv {
+        gap: 16px;
+    }
+    .simpleContent :first-child {
+        font-size: 18px;
+    }
+    .featuresContentDiv {
+        height: 300px;
+    }
+    .section-4 {
+        height: 1282px;
+        background-image: url("../images/dashboard-mobile.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .learnContentDiv {
+        height: 200px;
+    }
+    .learnContentDiv-2 {
+        height: 200px;
+    }
+    .upgrade-cards-div {
+        flex-direction: column;
+        gap: 48px;
+    }
+    .upgradeMainDiv {
+        height: 208px;
+    }
+    .upgradeDiv :first-child {
+        font-size: 14px;
+    }
+    .upgradeDiv :last-child {
+        font-size: 30px;
+    }
+    .upgradeDiv {
+        height: 108px;
+    }
+    .cardsMainDiv {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .getstartedBtn {
+        width: 100%;
+    }
+    .cardPrice {
+        font-size: 36px;
+    }
+    .checkboxDiv {
+        width: 219px;
+    }
+
+    .section-6 {
+        height: 846px;
+        
+    }
+    .girlDiv {
+        background-image: url("../images/girl\ img\ mobile.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .starsMainDiv p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .girlContentMainDiv {
+        padding: 40px 24px;
+    }
+    .starsMainDiv {
+        height: 228px;
+    }
+    .reneeMainDiv {
+        height: 48px;
+    }
+    .footerContentDiv {
+        flex-direction: column;
+    }
+    .footerNavMainDiv {
+        flex-direction: column;
+    }
+    .footerNavDiv {
+        flex-direction: column;
+    }
+    .footerNavDiv {
+        gap: 48px;
+    }
+    .footerNavMainDiv {
+        gap: 48px;
+    }
+    .formMainDiv {
+        order: -1;
+    }
+    .footerContentDiv {
+        gap: 48px;
+    }
+    .footerForm {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .copyDiv {
+        gap: 24px;
+        flex-direction: column;
+    }
+    .mainFooterDiv {
+        height: 1156px;
+    }
+}
